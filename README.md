@@ -1,6 +1,6 @@
-# Bikecaraf_Origamid
+# Bikecraft_Origamid
 
-##Minha versão do projeto final do curso de Web Design Completo da ORIGAMID
+## Minha versão do projeto final do curso de Web Design Completo da ORIGAMID
 
 -site
 ![image](https://user-images.githubusercontent.com/80642632/138701497-a8ad20a2-d55e-4d08-915b-3d628efaff8f.png)
