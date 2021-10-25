@@ -1,0 +1,87 @@
+.quebra_sobre {
+  width: 100%;
+}
+
+section .introducao_sobre {
+  background: url("..//img/bg-sobre.jpg") no-repeat center;
+  width: 100%;
+  height: 160px;
+  background-size: cover;
+  margin-top: 90px;
+}
+section .introducao_sobre h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}
+section .introducao_sobre h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 8px auto;
+}
+.introducao_sobre p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+.missao {
+  margin-top: 72.5px;
+}
+.missao h1 {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: initial;
+  padding-top: 30px;
+}
+.missao h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: black;
+  margin: 8px auto;
+  position: absolute;
+}
+.missao p {
+  margin-top: 30px;
+  text-transform: initial;
+}
+.valores {
+  margin-top: 72.5px;
+  margin-left: 70px;
+}
+.valores h1 {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: initial;
+  padding-top: 30px;
+}
+.valores h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: black;
+  margin: 8px auto;
+  position: absolute;
+}
+.valores p {
+  margin-top: 30px;
+  text-transform: initial;
+}
+.equipe {
+  margin-top: 50px;
+}
+.footer {
+  margin-top: 200px;
+}

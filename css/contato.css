@@ -1,0 +1,353 @@
+section .introducao_contato {
+  background: url("..//img/bg-contato.jpg") no-repeat center;
+  width: 100%;
+  height: 160px;
+  background-size: cover;
+  margin-top: 90px;
+}
+
+section .introducao_contato h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}
+
+section .introducao_contato h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 8px auto;
+}
+.introducao_contato p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+/* produtos  */
+
+/* passeio section */
+section .passeio-1 {
+  margin-top: 60px;
+  background: url(/img/produtos/bikcraft-passeio-1.jpg) no-repeat center;
+  background-size: cover;
+  height: 280px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+}
+section .passeio-1 h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+section .passeio-1 h1::before,
+section .passeio-1 h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 10px auto 10px auto;
+}
+.passeio-figure {
+  background-color: black;
+  height: 280px;
+  width: 280px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.passeio-3 {
+  background: url(/img/produtos/bikecraft-passeio-2.jpg) center no-repeat;
+  background-size: cover;
+  height: 280px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.passeio-montage {
+  background-color: black;
+  margin-top: 20px;
+  height: 183px;
+  width: 460px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.passeio-montage p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* esporte */
+section .introducao_produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  width: 100%;
+  height: 160px;
+  background-size: cover;
+  margin-top: 90px;
+}
+
+section .introducao_produtos h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}
+
+section .introducao_produtos h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 8px auto;
+}
+.introducao_produtos p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+/* produtos  */
+
+/* passeio section */
+section .esporte-1 {
+  margin-top: 60px;
+  background: url(/img/produtos/bikcraft-esporte-1.jpg) no-repeat center;
+  background-size: cover;
+  height: 280px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+}
+section .esporte-1 h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+section .esporte-1 h1::before,
+section .esporte-1 h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 10px auto 10px auto;
+}
+.passeio-figure {
+  background-color: black;
+  height: 280px;
+  width: 280px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.esporte-3 {
+  background: url(/img/produtos/bikcraft-esporte-2.jpg) center no-repeat;
+  background-size: cover;
+  height: 280px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.passeio-montage {
+  background-color: black;
+  margin-top: 20px;
+  height: 183px;
+  width: 460px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.passeio-montage p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* retrô */
+section .retro-1 {
+  margin-top: 60px;
+  background: url(/img/produtos/bikcraft-retro-1.jpg) no-repeat center;
+  background-size: cover;
+  height: 280px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+}
+section .retro-1 h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+section .retro-1 h1::before,
+section .retro-1 h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 10px auto 10px auto;
+}
+.passeio-retro {
+  background-color: black;
+  height: 280px;
+  width: 280px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.retro-3 {
+  background: url(/img/produtos/bikcraft-retro-2.jpg) center no-repeat;
+  background-size: cover;
+  height: 280px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.retro-montage {
+  background-color: black;
+  margin-top: 20px;
+  height: 183px;
+  width: 460px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.retro-montage p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+/* orçamento */
+.contato {
+  padding-top: 40px;
+}
+
+.contato_form {
+  padding-right: 60px;
+}
+.contato_form label {
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+.contato_form input {
+  display: block;
+  width: 100%;
+  border: 4px solid #fec63e;
+  background: none;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contato_form textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 4px solid #fec63e;
+  background: none;
+
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contato_form button {
+  background: none;
+  padding: 7px 40px;
+  cursor: pointer;
+}
+.contato_dados {
+  color: black;
+}
+.contato_dados h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fec63e;
+  line-height: 25px;
+  font-weight: bold;
+}
+.contato_dados span {
+  display: block;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 30px;
+}
+.contato_dados ul {
+  padding-right: 402px;
+  display: flex;
+  margin-top: 10px;
+}
+.contato_dados ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
+  flex-direction: row;
+  margin-right: 10px;
+}
+.contato_dados ul li:nth-child(odd) {
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  background-color: #292929;
+}
+.contato_mapa {
+  margin-bottom: 60px;
+}
